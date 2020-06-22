@@ -25,7 +25,7 @@ SECRET_KEY = '=wz@6oj59e#^+&1!-!clcv840a1o144w53ywf#r+%6mkgcxkls'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yourgoaltracker.herokuapp.com']
 
 
 # Application definition
