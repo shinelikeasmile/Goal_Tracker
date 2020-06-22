@@ -15,14 +15,6 @@ pycparser==2.19
 pycrypto==2.6.1
 pycurl==7.43.0.1
 pyflakes==1.6.0
-Pygments==2.2.0
-pylint==1.8.4
-pyodbc==4.0.23
-pyOpenSSL==19.0.0
-pyparsing==2.4.2
-pyrsistent==0.15.3
-PySocks==1.7.0
-pytest==3.5.1
 pytest-arraydiff==0.2
 pytest-astropy==0.3.0
 pytest-doctestplus==0.1.3
