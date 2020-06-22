@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="row mt-4">
+        <div class="col">
+            <h2>Add Goal</h2>
+             <form action="add_to_do/" method="post" class="form-inline">
+             <input type="text" name="c" class="form-control mb-2 mr-sm-2"  placeholder="Type here....">
+             <button type="submit" class="btn btn-primary mb-2">Submit</button>
+             </form>     
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col">
+         <ul class="list-group">
+            {% for todo in items %}
+                <li class="list-group-item">{{todo.text}}
+                <div class="float-right">
+                <form action="delete_todo/{{todo.id}}/" method="post">
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                </div>
+                </li>
+            {% endfor %}
+        </ul>
+        </div>
+    </div>
+{% endblock content %}
